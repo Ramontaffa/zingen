@@ -1,0 +1,7 @@
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+
+  border: 3px solid red;
+  margin-inline: auto;
+}
