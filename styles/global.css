@@ -14,12 +14,12 @@
 }
 
 :root {
-
+  
   /* produto */
   --brand-gradient: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
   --brand-color-primery: #F7B733;
   --brand-color-secondary: #FC4A1A;
-
+  
   /* base*/
   --background-color: #09090B;
   --surface-color: #18181B;
@@ -28,20 +28,23 @@
   --text-color-primary: #F4F4F5;
   
   /* tipografia */
-
+  
   --ff-sans: 'inter', system-ui, sans-serif;
   --fw-base: 400;
   --fw-md: 500;
   --fw-bold: 800;
-
+  
   --fs-sm: 0.875rem;
   --fs-base: 1rem;
   --fs-lg: 1.125rem;
   --fs-xl: 1.5rem;
   --fs-2xl: 2.5rem;
-
-  --px-lg: 1.5rem;
   
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+  --px-lg: 1.5rem;
+   
 }
 
 html {
@@ -87,5 +90,10 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+    --px-lg: 2rem;
   }
 }
