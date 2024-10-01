@@ -1,0 +1,52 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  & img[src*="music"]{
+    margin-top: 4rem;
+    display: flex;
+    width: 12.875rem;
+    margin-inline: auto;
+  }
+  #hero-main{
+    margin-top: 1rem;
+    & p {
+      font: var(--fw-md) var(--fs-lg)/1.4 var(--ff-sans);
+      color: var(--text-color-secondary);
+      margin-top: 0.5rem;
+    }
+
+    .buttons {
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media (width >= 80em) {
+  #hero {
+    background: url(../assets/desktop-bg.png) no-repeat bottom center/contain;
+    padding-bottom: 15rem;
+
+    & img[src*=music] {
+      margin-top: 5rem;
+      width: 25.75rem;
+    }
+
+    #hero-main {
+      margin-top: 1.5rem;
+
+      & p {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+      }
+
+      .buttons {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
