@@ -18,6 +18,7 @@
 
   @media (width >= 80em) {
     .card {
+      margin-top: 3rem;
       padding: 8.75rem 5rem;
 
       & > div:nth-child(1) {
