@@ -36,7 +36,6 @@
 .btn-md {
   font-size: var(--fs-base);
   padding: .75rem 1.5rem;
-
 }
 .btn-lg {
   font-size: 1.125rem;
@@ -50,7 +49,7 @@
     position: absolute;
     border-radius: inherit;
     background-color: var(--bg-color);
-    inset: 1.5px;
+    inset: 1px;
   }
 
   &::after {
